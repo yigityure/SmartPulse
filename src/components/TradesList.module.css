@@ -1,0 +1,11 @@
+table {
+  /* width: 100%; */
+  text-align: left;
+  width: fit-content;
+  table-layout: auto;
+}
+
+th {
+  background-color: #047cc2;
+  color: white;
+}

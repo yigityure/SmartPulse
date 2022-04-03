@@ -1,0 +1,32 @@
+table,
+th,
+td {
+  border-collapse: collapse;
+  padding-left: 10px;
+}
+
+td {
+  text-align: right;
+  align-content: space-between;
+  border-bottom: 1px solid rgb(8, 80, 214);
+}
+
+tr:hover {
+  background-color: rgb(104, 238, 193);
+}
+
+span.asd {
+  text-align: left;
+}
+.currency {
+  text-align: right;
+}
+.currency:before {
+  content: "₺";
+  float: left;
+  padding-left: 10px;
+}
+
+tr:nth-child(even) {
+  background-color: #b0e4f8;
+}
